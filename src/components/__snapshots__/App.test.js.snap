@@ -18,12 +18,12 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <h2>
-          Loot Check
-</h2>,
-        <hr />,
+        <h1>
+          LOOT CHECK
+</h1>,
         <Connect(Wallet) />,
       ],
+      "className": "wrapper",
     },
     "ref": null,
     "rendered": Array [
@@ -32,20 +32,11 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "Loot Check",
+          "children": "LOOT CHECK",
         },
         "ref": null,
-        "rendered": "Loot Check",
-        "type": "h2",
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {},
-        "ref": null,
-        "rendered": null,
-        "type": "hr",
+        "rendered": "LOOT CHECK",
+        "type": "h1",
       },
       Object {
         "instance": null,
@@ -66,12 +57,12 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <h2>
-            Loot Check
-</h2>,
-          <hr />,
+          <h1>
+            LOOT CHECK
+</h1>,
           <Connect(Wallet) />,
         ],
+        "className": "wrapper",
       },
       "ref": null,
       "rendered": Array [
@@ -80,20 +71,11 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "Loot Check",
+            "children": "LOOT CHECK",
           },
           "ref": null,
-          "rendered": "Loot Check",
-          "type": "h2",
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {},
-          "ref": null,
-          "rendered": null,
-          "type": "hr",
+          "rendered": "LOOT CHECK",
+          "type": "h1",
         },
         Object {
           "instance": null,
