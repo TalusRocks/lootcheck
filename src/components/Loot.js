@@ -7,10 +7,18 @@ export class Loot extends Component {
     componentDidMount() {
         this.props.fetchBitcoin()
     }
+
+    computeBitcoin() {
+        const { bitcoin } = this.props 
+
+        if (Object.keys(bitcoin).length === 0) return ''
+
+        return (this.props.balance / parseInt(bitcoin.bpi.USD.rate.replace(',', ''), 10)).toFixed(2)
+    }
     
     render() {
         return (
-            <h3>Bitcoin balance:</h3>
+            <h3>Bitcoin: <span className={this.computeBitcoin() < 0 ? 'red' : this.computeBitcoin() > 0 ? 'green' : 'black'}>{this.computeBitcoin()}</span></h3>
         )
     }
 }

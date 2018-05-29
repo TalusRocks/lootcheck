@@ -21,6 +21,7 @@ ShallowWrapper {
         <h1>
           LOOT CHECK
 </h1>,
+        <Connect(Loot) />,
         <Connect(Wallet) />,
       ],
       "className": "wrapper",
@@ -47,6 +48,15 @@ ShallowWrapper {
         "rendered": null,
         "type": [Function],
       },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
     ],
     "type": "div",
   },
@@ -60,6 +70,7 @@ ShallowWrapper {
           <h1>
             LOOT CHECK
 </h1>,
+          <Connect(Loot) />,
           <Connect(Wallet) />,
         ],
         "className": "wrapper",
@@ -76,6 +87,15 @@ ShallowWrapper {
           "ref": null,
           "rendered": "LOOT CHECK",
           "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
         },
         Object {
           "instance": null,

@@ -29,7 +29,7 @@ export class Wallet extends Component {
         return (
             <div>
                 <h3 className="balance">
-                    Wallet balance: <span className={this.props.balance < 0 ? 'red' : this.props.balance > 0 ? 'green' : 'black'}>{this.props.balance}</span>
+                    US Dollars: <span className={this.props.balance < 0 ? 'red' : this.props.balance > 0 ? 'green' : 'black'}>{this.props.balance}</span>
                 </h3>
                 <br/>
                 <div className="input-btn-wrapper">
