@@ -18,7 +18,7 @@ export class Loot extends Component {
     
     render() {
         return (
-            <h3>Bitcoin: <span className={this.computeBitcoin() < 0 ? 'red' : this.computeBitcoin() > 0 ? 'green' : 'black'}>{this.computeBitcoin()}</span></h3>
+            <h3 className="bitcoin">Bitcoin: <span className={this.computeBitcoin() < 0 ? 'red' : this.computeBitcoin() > 0 ? 'green' : 'black'}>{this.computeBitcoin()}</span></h3>
         )
     }
 }

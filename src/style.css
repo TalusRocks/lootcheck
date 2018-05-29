@@ -74,6 +74,15 @@ button {
     margin-bottom: 1em;
 }
 
+.bitcoin {
+    font-family: 'Orbitron', sans-serif;
+}
+
 h3 > span {
     margin-left: 0.5em;
+}
+
+.powered-by {
+    margin: 2em 0em 0em 0em;
+    font-size: 0.8em;
 }

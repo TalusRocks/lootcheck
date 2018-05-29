@@ -8,7 +8,8 @@ const App = () => {
             <h1>LOOT CHECK</h1>
             <Loot/>
             <Wallet/>
-            </div>
+            <p className="powered-by">Powered by <a href="https://www.coindesk.com/api/">Coindesk</a></p>
+        </div>
     )
 }
 
